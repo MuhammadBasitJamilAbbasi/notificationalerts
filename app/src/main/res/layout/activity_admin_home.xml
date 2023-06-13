@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <androidx.drawerlayout.widget.DrawerLayout android:id="@+id/my_drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:ignore="HardcodedText"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".admin.admin_home">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Notification"
+        android:paddingLeft="30sp"
+        android:paddingTop="30sp"
+        android:paddingBottom="10sp"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/titleEditText"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:background="@drawable/bg_edittextview"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:hint="Title"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/messageEditText"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:background="@drawable/bg_edittextview"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:hint="Message"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+
+        android:gravity="center"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:textColor="@color/whiteCardColor"
+        android:layout_below="@+id/passwordEditText"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/loginbutton"
+        android:layout_marginTop="15sp"
+
+        android:text="SEND"
+
+        android:textSize="18sp"/>
+
+
+
+</LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:id="@+id/mynavigationdraw"
+        app:menu="@menu/adminmenu" />
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+    <item
+        android:id="@+id/nav_notification"
+        android:icon="@drawable/notificationmanu"
+        android:title="Notifications" />
+
+    <item
+        android:id="@+id/nav_suggest"
+        android:icon="@drawable/partnermenu"
+        android:title="About us" />
+
+
+
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/moreappmenu"
+        android:title="Logout" />
+
+
+
+
+</menu>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "649746076676",
+    "project_id": "trust-110bf",
+    "storage_bucket": "trust-110bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649746076676:android:efec10058f989b7940d151",
+        "android_client_info": {
+          "package_name": "com.bj.georgehousetrust"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "649746076676-uordhmkgm0nr8nm5gt8mjsisdaflv8ce.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bj.georgehousetrust",
+            "certificate_hash": "c0260e09c384565bb28f9f001911ab70f96ba9c7"
+          }
+        },
+        {
+          "client_id": "649746076676-qfl4l68uip9p0hfo5g4gtk3dllui675u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp2RnZu6kwb323C0QwaFjIYB_F_fVFJ04"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "649746076676-pq1hremv02e3ft1ul42c3dl3mf01hj9d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

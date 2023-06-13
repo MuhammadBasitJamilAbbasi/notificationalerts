@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Customize dialog background color -->
+    <solid android:color="#f2f2f2" />
+    <!-- Customize dialog corner radius -->
+    <corners android:radius="8dp" />
+</shape>

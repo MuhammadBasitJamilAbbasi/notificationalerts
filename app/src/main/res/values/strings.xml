@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GEORGE TRUST HOUSE </string>
+    <string name="register">REGISTER</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="signup_login_hint">Already have an account? Sign In</string>
+    <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
+    <string name="sigin_hint">Sign in to your account</string>
+    <string name="sigup_hint">Create account please enter correct details</string>
+    <string name="otp">Did\'t recived OTP ?</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+</resources>

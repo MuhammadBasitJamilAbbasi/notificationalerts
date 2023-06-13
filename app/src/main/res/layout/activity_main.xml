@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/whiteCardColor"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <!-- Logo Image -->
+
+
+    <!-- Email EditText -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:paddingLeft="30sp"
+        android:paddingTop="30sp"
+        android:paddingBottom="10sp"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sigin_hint"
+        android:paddingLeft="30sp"
+        />
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:background="@drawable/bg_edittextview"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+
+        android:textSize="16sp"/>
+
+    <!-- Password EditText -->
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_edittextview"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:layout_below="@+id/emailEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15sp"
+
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="12dp"
+
+        android:textSize="16sp"/>
+
+    <!-- Login Button -->
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+
+        android:gravity="center"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:textColor="@color/whiteCardColor"
+        android:layout_below="@+id/passwordEditText"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/loginbutton"
+        android:layout_marginTop="15sp"
+
+        android:text="Login"
+
+        android:textSize="18sp"/>
+
+    <!-- Google Sign-In Button -->
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/google_sign_in_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginRight="30sp"
+        android:layout_below="@+id/login_button"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/signup_button"
+        android:text="@string/login_signup_hint"
+        android:layout_marginTop="10sp"
+        android:paddingLeft="30sp"
+        />
+
+</LinearLayout>

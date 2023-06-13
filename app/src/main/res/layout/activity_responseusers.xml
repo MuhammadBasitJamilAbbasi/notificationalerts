@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".admin.responseusers">
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        android:gravity="center"
+        android:text="TITLE"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_below="@id/titleTextView"
+        android:layout_height="match_parent"
+        android:background="@drawable/dialog_background"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_above="@id/Export"
+        android:id="@+id/recyclerView_response"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Export"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:layout_marginBottom="10sp"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:text="Export"/>
+
+</RelativeLayout>
